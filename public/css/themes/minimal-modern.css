@@ -1,0 +1,25 @@
+:root {
+    --uk-bg: #fafafa;
+    --uk-surface: #ffffff;
+    --uk-text: #1d1d1f;
+    --uk-muted: #6e6e73;
+    --uk-accent: #e76f51;
+    --uk-border: #e9e9ec;
+    --uk-input-bg: #fafafa;
+    --uk-btn-text: #fff;
+    --uk-shadow: 0 1px 2px rgba(0,0,0,.05);
+    --uk-radius: 12px;
+    --uk-font: "Inter", "Segoe UI", system-ui, sans-serif;
+    --uk-display: var(--uk-font);
+}
+.uk-hero { background: linear-gradient(160deg, #ffffff 40%, #fff1ec); }
+.uk-hero-title { font-size: clamp(2.4rem, 6vw, 4rem); letter-spacing: -.04em; line-height: 1.05; }
+.uk-badge { display: inline-block; background: color-mix(in srgb, var(--uk-accent) 12%, white); color: var(--uk-accent); border-radius: 999px; padding: 7px 15px; font-size: .74rem; font-weight: 700; }
+.uk-hero-date { color: var(--uk-muted); font-size: 1.05rem; margin-top: 16px; }
+.uk-hero-quote { color: var(--uk-muted); line-height: 1.8; max-width: 520px; margin-top: 14px; }
+.uk-hero-panel { background: #fff; border-radius: 14px; padding: 30px; box-shadow: var(--uk-shadow); border: 1px solid var(--uk-border); }
+.uk-avatar { width: 52px; height: 52px; border-radius: 10px; overflow: hidden; background: color-mix(in srgb, var(--uk-accent) 12%, white); color: var(--uk-accent); display: flex; align-items: center; justify-content: center; font-weight: 700; }
+.uk-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.uk-title { letter-spacing: -.03em; }
+.uk-gallery-item { border-radius: 10px; }
+.uk-footer { background: #fff; border-top: 1px solid var(--uk-border); }
